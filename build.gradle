@@ -1,0 +1,61 @@
+buildscript {
+    ext {
+        springBootVersion = '1.2.4.RELEASE'
+    }
+    repositories { mavenCentral() }
+    dependencies {
+
+//        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.1.8.RELEASE")
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+        classpath 'org.springframework:springloaded:1.2.0.RELEASE'
+        classpath("io.spring.gradle:dependency-management-plugin:0.5.2.RELEASE")
+    }
+}
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+//apply plugin: 'war'
+
+jar {
+    baseName = 'spring-project'
+    version = '1.0.0'
+}
+
+idea {
+    module {
+        inheritOutputDirs = false
+        outputDir = file("$buildDir/classes/main/")
+    }
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+    compile project(':core')
+    compile 'org.codehaus.groovy:groovy-all'
+    compile("org.springframework.boot:spring-boot-starter")
+    compile 'org.springframework.boot:spring-boot-starter-web'
+//    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+    compile("org.springframework.boot:spring-boot-starter-integration")
+    compile("org.springframework.boot:spring-boot-starter-data-mongodb")
+    compile("org.springframework.boot:spring-boot-starter-security")
+
+    compile "org.grails:grails-web:2.4.4"
+    compile "org.grails:grails-gsp-spring-boot:1.0.0"
+
+//    runtime 'com.h2database:h2'
+//    runtime 'mysql:mysql-connector-java:5.1.16'
+}
+
+springBoot {
+    mainClass = "com.Application"
+}
+
+
+/*
+task runJava(type: JavaExec, dependsOn: 'classes') {
+    main = "com.intelligrape.gradle.Application1"
+    classpath = sourceSets.main.runtimeClasspath
+}*/

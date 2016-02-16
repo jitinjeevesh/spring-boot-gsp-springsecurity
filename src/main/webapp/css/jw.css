@@ -1,0 +1,293 @@
+.jw-icon {
+    font-family: 'jw-icons';
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 200;
+    text-transform: none;
+    background-color: transparent;
+    font-variant: normal;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    -moz-osx-font-smoothing: grayscale
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-background-color {
+    background: linear-gradient(to bottom, #323b4c, #2f3847 50%, #323b4c 100%)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-controlbar {
+    background: rgba(24, 35, 53, 0.8);
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-text {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-tooltip-title {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-knob {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-button-color {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-button-color:hover {
+    color: #D00D3C
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-toggle {
+    color: #D00D3C
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-toggle.jw-off {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-option {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-option.jw-active-option {
+    color: #D00D3C
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-icon-display {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-display-icon-container {
+    border-radius: .5em;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-display-icon-container:hover {
+    background: #D00D3C
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-display-icon-container:hover .jw-icon-display {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-rail {
+    background: linear-gradient(to bottom, #323b4c, #2f3847 50%, #323b4c 100%)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-buffer {
+    background: linear-gradient(to bottom, #5e6575, #565e6b 50%, #5e6575 100%)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-progress {
+    background: linear-gradient(to bottom, #D00D3C, #D00D3C 50%, #D00D3C 100%)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal {
+    background: rgba(24, 35, 53, 0.8)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-knob {
+    margin-left: 0.0em;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-knob {
+    margin-bottom: 0.0em;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-time-tip,
+.jw-skin-jwplayer_v2_skin_no_error .jw-volume-tip,
+.jw-skin-jwplayer_v2_skin_no_error .jw-menu {
+    background: rgba(80, 88, 99, 0.9);
+    border: 0;
+    padding: .5em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-skip {
+    background: rgba(24, 35, 53, 0.8);
+    padding: .5em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-skip .jw-skip-icon {
+    color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-skip.jw-skippable:hover .jw-skip-icon,
+.jw-skin-jwplayer_v2_skin_no_error .jw-skip.jw-skippable:hover .jw-text {
+    color: #D00D3C
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-time-tip .jw-text,
+.jw-skin-jwplayer_v2_skin_no_error .jw-dock-button .jw-text {
+    color: #bbb
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-time-tip {
+    bottom: 1em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-dock-button {
+    background: linear-gradient(to bottom, #323b4c, #2f3847 50%, #323b4c 100%);
+    border-radius: .5em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-dock-button:hover {
+    background: #D00D3C
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-playlist-container {
+    padding: 0;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-icon-inline,
+.jw-skin-jwplayer_v2_skin_no_error .jw-icon-tooltip,
+.jw-skin-jwplayer_v2_skin_no_error .jw-text-elapsed,
+.jw-skin-jwplayer_v2_skin_no_error .jw-text-duration {
+    padding: 0 .25em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-controlbar {
+    display: inline-block;
+    width: 99%;
+    max-width: 50em;
+    margin: 0 auto;
+    padding-bottom: 45px;
+    bottom: .2em;
+    left: 0%;
+    right: 0%;
+    max-height: 35px;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error.jw-flag-audio-player .jw-controlbar {
+    bottom: 0
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-controlbar {
+    border-radius: .3em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-playlist-container {
+    left: -42%;
+    overflow: hidden;
+    bottom: .2em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-playlist-container .jw-option {
+    border-bottom: 1px solid rgba(24, 35, 53, 0.8)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-playlist-container .jw-option:hover,
+.jw-skin-jwplayer_v2_skin_no_error .jw-playlist-container .jw-option.jw-active-option {
+    background-color: rgba(24, 35, 53, 0.8);
+    color: #D00D3C
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-playlist-container::-webkit-scrollbar-track {
+    background-color: #222c37
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-playlist-container::-webkit-scrollbar {
+    width: 2px;
+    border: 10px solid rgba(24, 35, 53, 0.8);
+    border-radius: .3em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-playlist-container::-webkit-scrollbar-thumb {
+    background-color: #fff
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-tooltip-title {
+    border-bottom: 1px solid rgba(24, 35, 53, 0.8);
+    background-color: rgba(24, 35, 53, 0.8)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-rail,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-rail,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-progress,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-progress,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-buffer,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-buffer {
+    border-radius: .1em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-knob,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-knob {
+    background-color: #fff;
+    width: .7em;
+    height: .7em;
+    border-radius: 50%;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal {
+    background: transparent;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-rail,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-progress,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-buffer {
+    height: .3em;
+    left: 0;
+    margin-right: 1px;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-cue {
+    top: .04999999999999999em;
+    background-color: #fff;
+    width: .2em;
+    height: .2em;
+    border-radius: 1em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-horizontal .jw-knob {
+    top: -0.19999999999999998em;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-rail,
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-progress {
+    width: .3em;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-rail {
+    background: linear-gradient(to right, #323b4c, #2f3847 50%, #323b4c 100%)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-slider-vertical .jw-progress {
+    background: linear-gradient(to right, #D00D3C, #D00D3C 50%, #D00D3C 100%)
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-time-tip,
+.jw-skin-jwplayer_v2_skin_no_error .jw-volume-tip,
+.jw-skin-jwplayer_v2_skin_no_error .jw-menu,
+.jw-skin-jwplayer_v2_skin_no_error .jw-skip {
+    border-radius: .3em
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-volume-tip,
+.jw-skin-jwplayer_v2_skin_no_error .jw-menu {
+    bottom: .2em
+}
+
+/* Added to hide error message displayed on JWPlayer*/
+
+.jw-state-error .jw-display-icon-container {
+    /*display: none;*/
+    display: block;
+    /*background: transparent none;*/
+}
+
+.jw-title-primary {
+    display: none;
+}
+
+.jw-icon-hd .jw-menu {
+    font-size: 15px;
+}
+
+.jw-skin-jwplayer_v2_skin_no_error .jw-icon-hd,
+.jw-skin-jwplayer_v2_skin_no_error .jw-text-duration{
+    padding-left: 0.7em;
+}

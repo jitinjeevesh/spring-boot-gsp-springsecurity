@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/springboot
+    username: root
+    password: igdefault
+  data:
+    mongodb:
+      uri: mongodb://localhost/springproject
+
+
+security:
+ user.name: 'jeevesh'
+ user.password: 'igdefault'
+
+logging:
+  level.org.springframework.security: 'DEBUG'
