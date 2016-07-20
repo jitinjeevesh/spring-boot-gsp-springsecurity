@@ -1,3 +1,4 @@
+/*
 package domain;
 
 import org.springframework.data.annotation.Id;
@@ -7,3 +8,4 @@ public class Retailer {
     private String id;
     private String email;
 }
+*/
