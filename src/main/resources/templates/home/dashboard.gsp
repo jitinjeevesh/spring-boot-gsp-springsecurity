@@ -162,7 +162,7 @@
                     <i class="fa fa-circle"></i>
                 </li>
                 <li>
-                    <span>Dashboard</span>
+                    <span>Dashboard ${users}</span>
                 </li>
             </ul>
             <!-- END PAGE BREADCRUMBS -->

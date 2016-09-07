@@ -21,4 +21,8 @@ class ApplicationTagLib {
         Integer pages = (total / 10) + 1
         out << render(template: '/shared/pagination', model: [action: action, total: total, currentPage: currentPage, pages: pages])
     }
+
+    def disp = {
+        out << "Hello this text comes from the taglib............"
+    }
 }

@@ -62,6 +62,7 @@
                         <div class="col-sm-4">
                             <div class="rem-password">
                                 <p>Remember Me
+                                <app:disp></app:disp>
                                     <input type="checkbox" class="rem-checkbox"/>
                                     <input type="hidden" name="${_csrf.parameterName}"
                                            value="${_csrf.token}"/>
